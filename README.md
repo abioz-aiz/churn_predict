@@ -8,25 +8,15 @@ This repository contains two main components:
 project/
 
 ├── churn_predict/
-
 │ ├── datasets/
-
 │ │ └── churn_data.csv
-
 │ ├── model/
-
 │ │ └── model_C=1.0.bin
-
 │ ├── deploy_churn.ipynb
-
 │ ├── myapp.py
-
 │ ├── Dockerfile
-
 │ └── requirements.txt
-
 └── README.md
-
 
 ## Churn Prediction Model
 
@@ -50,7 +40,6 @@ scikit-learn==1.3.0
 gunicorn==21.2.0
 numpy==1.24.0
 
-
 ### Running Locally
 
 1. **Install dependencies**
@@ -60,29 +49,50 @@ numpy==1.24.0
 3. **Making Predictions**
    Test the API using curl:
    bash
+   
 curl -X POST -H "Content-Type: application/json" -d '{
+
 "gender": "female",
+
 "seniorcitizen": 0,
+
 "partner": "yes",
+
 "dependents": "no",
+
 "phoneservice": "no",
+
 "multiplelines": "no_phone_service",
+
 "internetservice": "dsl",
+
 "onlinesecurity": "no",
+
 "onlinebackup": "yes",
+
 "deviceprotection": "no",
+
 "techsupport": "no",
+
 "streamingtv": "no",
+
 "streamingmovies": "no",
+
 "contract": "month-to-month",
+
 "paperlessbilling": "yes",
+
 "paymentmethod": "electronic_check",
+
 "tenure": 1,
+
 "monthlycharges": 29.85,
+
 "totalcharges": 29.85
+
 }' http://localhost:9696/predict
 
-4. Running the Streamlit App
+5. Running the Streamlit App
    streamlit run myapp.py
 
 ## Development
