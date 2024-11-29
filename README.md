@@ -154,7 +154,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Data source for stock prices: Yahoo Finance
-- Churn prediction dataset: [Chunr_data.csv](https://github.com/abioz-aiz/churn_predict/blob/main/datasets/churn_data.csv)
+- Churn prediction dataset: [Churn_data.csv](https://github.com/abioz-aiz/churn_predict/blob/main/datasets/churn_data.csv)
 
 Contact: 
 
