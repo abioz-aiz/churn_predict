@@ -3,7 +3,7 @@
 ![Project Banner](https://github.com/abioz-aiz/churn_predict/blob/main/Screenshot%202024-11-29%20144319.png)
 
 ## Demo
-![Demo Video](https://github.com/abioz-aiz/churn_predict/blob/main/churn_demo.mp4)
+[![Demo Video](https://github.com/abioz-aiz/churn_predict/blob/main/Screenshot%202024-11-29%20144319.png)](https://youtu.be/kN9NdZ2h2w8)
 
 This repository contains two main components:
 1. A Stock Price visualization app using Streamlit
