@@ -8,14 +8,23 @@ This repository contains two main components:
 project/
 
 ├── churn_predict/
+
 │ ├── datasets/
+
 │ │ └── churn_data.csv
+
 │ ├── model/
+
 │ │ └── model_C=1.0.bin
+
 │ ├── deploy_churn.ipynb
+
 │ ├── myapp.py
+
 │ ├── Dockerfile
+
 │ └── requirements.txt
+
 └── README.md
 
 ## Churn Prediction Model
@@ -119,7 +128,7 @@ This project is licensed under the MIT License - see the LICENSE file for detail
 ## Acknowledgments
 
 - Data source for stock prices: Yahoo Finance
-- Churn prediction dataset: [Add your dataset source]
+- Churn prediction dataset: [Chunr_data.csv](https://github.com/abioz-aiz/churn_predict/blob/main/datasets/churn_data.csv)
 
 Contact: 
 
