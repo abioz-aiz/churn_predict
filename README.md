@@ -1,10 +1,11 @@
-# Churn Prediction Application
+# Stock Price & Churn Prediction Application
 
 This repository contains two main components:
-1. A Customer Churn Prediction Web app using Streamlit
+1. A Stock Price visualization app using Streamlit
 2. A Customer Churn Prediction model using Flask
 
 ## Project Structure
+
 project/
 
 ├── churn_predict/
@@ -26,6 +27,27 @@ project/
 │ └── requirements.txt
 
 └── README.md
+
+
+## Stock Price Visualization App
+
+### Features
+- Displays Google (GOOGL) stock closing prices
+- Shows trading volume visualization
+- Interactive date range selection
+- Built with Streamlit for easy web interface
+
+### Requirements
+
+python
+streamlit==1.31.0
+yfinance==0.2.36
+pandas==2.1.0
+
+
+### Running the Stock Price App
+
+   streamlit run myapp.py
 
 ## Churn Prediction Model
 
@@ -102,7 +124,7 @@ curl -X POST -H "Content-Type: application/json" -d '{
 }' http://localhost:9696/predict
 
 5. Running the Streamlit App
-   streamlit run myapp.py
+   streamlit run predict_copy.py
 
 ## Development
 
