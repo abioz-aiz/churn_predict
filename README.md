@@ -1,5 +1,10 @@
 # Stock Price & Churn Prediction Application
 
+![Project Banner](https://github.com/abioz-aiz/churn_predict/blob/main/Screenshot%202024-11-29%20144319.png)
+
+## Demo
+![Demo Video](https://github.com/abioz-aiz/churn_predict/blob/main/churn_demo.mp4)
+
 This repository contains two main components:
 1. A Stock Price visualization app using Streamlit
 2. A Customer Churn Prediction model using Flask
